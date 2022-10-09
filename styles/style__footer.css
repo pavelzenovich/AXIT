@@ -1,0 +1,42 @@
+footer{
+    width: 100%;
+    background-color: #000000;
+    margin: 0 auto;
+    text-align: center;
+}
+.social{ 
+    padding-top: 35px;
+}
+.social__twitter{
+    margin-left: 32.8px;
+}
+.social__linkedin{
+    margin-left: 32.8px;
+}
+.social__pinterest{
+    margin-left: 32.8px;
+}
+.social__instagram{
+    margin-left: 32.8px;
+}
+.social__git{
+    margin-left: 32.8px;
+}
+.social__rss{
+    margin-left: 32.8px;
+}
+.text{
+    width: 1169px;
+    height: 21px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: white;
+    opacity: 50%;
+    padding-top: 27.8px;
+    padding-bottom: 27px;
+    margin: 0 auto;
+}
