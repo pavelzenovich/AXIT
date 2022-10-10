@@ -100,18 +100,6 @@ main {
     padding-left: 100px;
 }
 .container-text__download{
-    width: 270px;
-    height: 58px;
-    background-color: #EC7979;
-    color: white;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
-    margin-left: 100px;
-    min-height: 58px;
-    vertical-align: middle;
+    padding-left: 100px;
 }
 
