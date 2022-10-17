@@ -2,28 +2,15 @@ footer{
     width: 100%;
     background-color: #000000;
     margin: 0 auto;
-    text-align: center;
 }
 .social{ 
+    width: 569.2px;
+    height: 53.2px;
     padding-top: 35px;
-}
-.social__twitter{
-    margin-left: 32.8px;
-}
-.social__linkedin{
-    margin-left: 32.8px;
-}
-.social__pinterest{
-    margin-left: 32.8px;
-}
-.social__instagram{
-    margin-left: 32.8px;
-}
-.social__git{
-    margin-left: 32.8px;
-}
-.social__rss{
-    margin-left: 32.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 470px;
+    margin-right: 470.8px;
 }
 .text{
     width: 1169px;
@@ -38,5 +25,6 @@ footer{
     opacity: 50%;
     padding-top: 27.8px;
     padding-bottom: 27px;
-    margin: 0 auto;
+    margin-left: 170px;
+    margin-right: 171px;
 }

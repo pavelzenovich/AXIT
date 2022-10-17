@@ -1,0 +1,207 @@
+.prisin{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+.pricing{
+    width: 1170px;
+    margin: 0 auto;
+}
+.pricing-text__title{
+    width: 1170px;
+    height: 150px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 150px;
+    text-align: center;
+    color: black;
+    margin: 50px 0px 0px 0px;
+}
+.pricing-text__imgline {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pricing-text__subtitle {
+    width: 1169px;
+    height: 21 px;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    margin: 40px 0px 0px 0px;
+}
+.pricing-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+.pricing-content-item-one{
+    width: 370px;
+    height: 510px;
+    margin-top: 79px;
+    margin-bottom: 50px;
+}
+.pricing-content-item-two{
+    width: 370px;
+    height: 510px;
+    filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+    margin-top: 59px;
+}
+.pricing-content-item-three{
+    width: 370px;
+    height: 510px;
+    margin-top: 79px;
+    margin-bottom: 50px;
+}
+.pricing-content-item__one{
+    width: 370px;
+    height: 60px;
+    background-color: #333333;
+    color: white;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 60px;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0 auto;
+    outline: 2px solid #F5F5F5;
+    outline-offset: -2px;
+}
+.pricing-content-item__two{
+    width: 370px;
+    height: 100px;
+    background-color: #333333;
+    color: white;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    outline: 2px solid #F5F5F5;
+    outline-offset: -2px;
+}
+.pricing-content-item__three{
+    width: 370px;
+    height: 50px;
+    background-color: #333333;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 50px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    outline: 2px solid #F5F5F5;
+    outline-offset: -2px;
+}
+.pricing-content-item__four{
+    width: 370px;
+    height: 50px;
+    background-color: white;
+    color: #86878B;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 50px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    outline: 2px solid #F5F5F5;
+    outline-offset: -2px;
+}
+.pricing-content-item__five{
+    width: 370px;
+    height: 50px;
+    background-color: white;
+    color: #86878B;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 50px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    outline: 2px solid #F5F5F5;
+    outline-offset: -2px;
+}
+.pricing-content-item__six{
+    width: 370px;
+    height: 50px;
+    background-color: white;
+    color: #86878B;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 50px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    outline: 2px solid #F5F5F5;
+    outline-offset: -2px;
+}
+.pricing-content-item__seven{
+    width: 370px;
+    height: 50px;
+    background-color: white;
+    color: #86878B;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 50px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    outline: 2px solid #F5F5F5;
+    outline-offset: -2px;
+}
+.pricing-content-item__eight{
+    width: 370px;
+    height: 50px;
+    background-color: white;
+    color: #86878B;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 50px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    outline: 2px solid #F5F5F5;
+    outline-offset: -2px;
+}
+.pricing-content-item__nine{
+    width: 370px;
+    height: 50px;
+    background-color: white;
+    color: #86878B;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 50px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    outline: 2px solid #F5F5F5;
+    outline-offset: -2px;
+}
+

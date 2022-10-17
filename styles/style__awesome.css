@@ -35,10 +35,11 @@ main {
     font-size: 18px;
     line-height: 21px;
     color: #86878B;
-    margin: 0px 0px 110px 0px;
+    margin: 0px 0px 71px 0px;
 }
 .awesome-content{
     width: 100%;
+    margin-bottom: 58px;
 }
 .awesome-content-item{
     display:inline-block;
