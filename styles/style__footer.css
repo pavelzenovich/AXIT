@@ -2,6 +2,7 @@ footer{
     width: 100%;
     background-color: #000000;
     margin: 0 auto;
+    text-align: center;
 }
 .social{ 
     width: 569.2px;
@@ -9,8 +10,9 @@ footer{
     padding-top: 35px;
     display: flex;
     justify-content: space-between;
-    margin-left: 470px;
-    margin-right: 470.8px;
+    /* margin-left: 470px;
+    margin-right: 470.8px; */
+    margin: 0 auto;
 }
 .text{
     width: 1169px;
@@ -25,6 +27,7 @@ footer{
     opacity: 50%;
     padding-top: 27.8px;
     padding-bottom: 27px;
-    margin-left: 170px;
-    margin-right: 171px;
+    /* margin-left: 170px;
+    margin-right: 171px; */
+    margin: 0 auto;
 }

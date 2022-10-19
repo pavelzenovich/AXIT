@@ -1,0 +1,99 @@
+.customer{
+    width: 100%;
+}
+.customers{
+    width: 1170px;
+    margin: 0 auto;
+}
+.customers-text__title{
+    width: 1170px;
+    height: 150px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 150px;
+    text-align: center;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+.customers-text__imgline{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.customers-text__subtitle{
+    width: 1169px;
+    height: 21 px;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    margin: 40px 0px 83px 0px;
+}
+.customers-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+.customers-content-item{
+    width: 370px;
+    height: 336px;
+    position: relative;
+}
+.customers-content-item__text{
+    width: 370px;
+    height: 180px;
+    background-color: #E2E2E2;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #86878B;
+    min-height: 180px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.customers-content-item__t{
+    position: absolute;
+    top: 180px;
+    left: 70px;
+}
+.customers-content-item-square{
+    width: 370px;
+    height: 90px;
+    margin-top: 66px;
+}
+.customers-content-item__icon{
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+.customers-content-item__title{
+    width: 270px;
+    height: 54px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 54px;
+    margin: 0px 0px 0px 100px;
+}
+.customers-content-item__subtitle{
+    width: 270px;
+    height: 21px;
+    align-self: auto;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 15px 0px 0px 100px;
+}

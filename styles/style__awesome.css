@@ -40,6 +40,8 @@ main {
 .awesome-content{
     width: 100%;
     margin-bottom: 58px;
+    display: flex;
+    justify-content: space-between;
 }
 .awesome-content-item{
     display:inline-block;
