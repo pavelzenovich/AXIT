@@ -1,0 +1,120 @@
+main {
+    width: 100%;
+}
+.contactus{
+    width: 1170px;
+    margin: 0 auto;
+}
+.contactus-text__title{
+    width: 1170px;
+    height: 150px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 150px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.contactus-text__imgline{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contactus-text__subtitle{
+    width: 1169px;
+    height: 21px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #86878B;
+    margin: 40px 0px 89px 0px;
+}
+.contactus-form{
+    width: 1170px;
+    margin-bottom: 50px;
+}
+.contactus-form-data{
+    width: 1170px;
+    height: 214px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.contactus-form-data__name{
+    width: 571px;
+    height: 38px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    margin-bottom: 50px;
+}
+.contactus-form-data__email{
+    width: 571px;
+    height: 38px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    margin-bottom: 50px;
+}
+.contactus-form-data__password{
+    width: 571px;
+    height: 38px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+}
+.contactus-form-data__message{
+    width: 569px;
+    height: 209px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    position: absolute;
+    left: 604px;
+}
+::placeholder{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+}
+.contactus-form__button{
+    width: 370px;
+    height: 58px;
+    background-color: #EC7979;
+    border: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 50px 0px 0px 401px
+}

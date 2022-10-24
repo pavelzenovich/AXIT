@@ -1,0 +1,42 @@
+header{
+    width: 100%;
+    background-color: black;
+    display: inline-block;
+}
+.logo-header{
+    width: 183.1px;
+    height: 75px;
+    float: left;
+    margin-left: 115.28px;
+    display: flex;
+    align-items: center;
+}
+.logo-header__ax{
+    width: 51.81px;
+    height: 30.69px;
+    margin-right: 2.81px;
+}
+.logo-header__it{
+    width: 32.17;
+    height: 30.69px;
+}
+.menu{
+    width: 570px;
+    height: 75px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    margin-left: 770px;
+}
+.menu__text{
+    width: 113.8px;
+    height: 75px;
+    margin: 0 auto;
+}

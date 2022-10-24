@@ -10,10 +10,74 @@
     <link rel="stylesheet" href="./styles/style__footer.css">
     <link rel="stylesheet" href="./styles/style__pricing.css">
     <link rel="stylesheet" href="./styles/style__customers.css">
-    <link rel="stylesheet" href="./styles/design__style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style__design.css">
+    <link rel="stylesheet" href="./styles/style__header.css">
+    <link rel="stylesheet" href="./styles/style__banner.css">
+    <link rel="stylesheet" href="./styles/style__social.css">
+    <link rel="stylesheet" href="./styles/style__contactus.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!--header-->
+    <header>
+        <div class="logo-header">
+            <img class="logo-header__ax" src="./images/AX.svg">
+            <img class="logo-header__it" src="./images/IT.svg">
+        </div>
+        <nav class="menu">
+            <h5 class="menu__text">Features</h5>
+            <h5 class="menu__text">About</h5>
+            <h5 class="menu__text">Pricing</h5>
+            <h5 class="menu__text">Reviews</h5>
+            <h5 class="menu__text">Contact</h5>
+        </nav>
+    </header>
+
+    <!--banner-->
+    <main class="banner-image">
+        <div class="banner-opacity">
+            <div class="banner-content">
+                <form class="banner-content-form">
+                    <h4 class="banner-content-form__text">TRY YOUR <span class="colortext">FREE</span> TRIAL TODAY</h4>
+                    <div class="banner-content-form__data">
+                        <input class="banner-content-form__name" type="name" placeholder="Name">
+                        <div class="banner-content-form__line"></div>
+                        <input class="banner-content-form__email" type="email" placeholder="Email">
+                        <div class="banner-content-form__line"></div>
+                        <input class="banner-content-form__password" type="password" placeholder="Password">
+                        <div class="banner-content-form__line"></div>
+                    </div>
+                    <button class="banner-content-form__button" type="button">Get Started</button>
+                </form>
+                <div class="banner-content-logo">
+                    <img class="banner-content-logo__ax" src="./images/AX.svg">
+                    <img class="banner-content-logo__it" src="./images/IT.svg">
+                </div>
+                <h1 class="banner-content-title">MODERN AXURE TEMPLATE<br>FOR BEAUTIFUL<br>PROTOTYPES</h1>
+                <img class="banner-content-imgline" src="./images/separatorwhite.svg">
+                <h5 class="banner-content-subtitle">Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit</h5>
+                <button class="banner-content-download" type="button">Download</button>
+            </div>
+        </div>
+    </main>
+
+    <!--social-->
+    <main class="social-background">
+        <div class="social-media">
+            <div class="social-media-icon">
+                <img class="social-media-icon__ic" src="./images/social/facebook.svg">
+                <img class="social-media-icon__ic" src="./images/social/twitter.svg">
+                <img class="social-media-icon__ic" src="./images/social/linkedin.svg">
+                <img class="social-media-icon__ic" src="./images/social/pinterest.svg">
+                <img class="social-media-icon__ic" src="./images/social/instagram.svg">
+                <img class="social-media-icon__ic" src="./images/social/git.svg">
+                <img class="social-media-icon__ic" src="./images/social/rss.svg">
+            </div>
+            <h4 class="social-media__title">Social Media</h4>
+            <h5 class="social-media__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Aenean euismod bibendum laoreet.</h5>
+        </div>
+    </main>
+
     <!-- tab  -->
     <main>
         <div class="container">
@@ -170,8 +234,27 @@ quo suscipit.</h5>
                 <h1 class="design-content__title">STYLISH AXURE DESIGN</h1>
                 <img class="design-content__imgline" src="./images/separatorwhite.svg">
                 <h5 class="design-content__subtitle">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</h5>
-                <img class="desgn-content__download" src="./images/button_1_normal.svg">
+                <button class="design-content__download" type="button">Download</button>
             </div>
+        </div>
+    </main>
+    <!--contactus-->
+    <main>
+        <div class="contactus">
+            <div class="contactus-text">
+                <h1 class="contactus-text__title">CONTACT US</h1>
+                <img class="contactus-text__imgline" src="./images/separator.svg">
+                <p class="contactus-text__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <form class="contactus-form">
+                <div class="contactus-form-data">
+                    <input class="contactus-form-data__name" type="name" placeholder="Name">
+                    <input class="contactus-form-data__email" type="email" placeholder="Email">
+                    <input class="contactus-form-data__password" type="password" placeholder="Password">
+                    <textarea class="contactus-form-data__message" placeholder="Message"></textarea>
+                </div>
+                <button class="contactus-form__button" type="button">Send Message</button>
+            </form>
         </div>
     </main>
 

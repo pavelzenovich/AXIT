@@ -10,8 +10,6 @@ footer{
     padding-top: 35px;
     display: flex;
     justify-content: space-between;
-    /* margin-left: 470px;
-    margin-right: 470.8px; */
     margin: 0 auto;
 }
 .text{
@@ -27,7 +25,5 @@ footer{
     opacity: 50%;
     padding-top: 27.8px;
     padding-bottom: 27px;
-    /* margin-left: 170px;
-    margin-right: 171px; */
     margin: 0 auto;
 }

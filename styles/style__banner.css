@@ -1,0 +1,161 @@
+.banner-image{
+    width: 100%;
+    height: 1026px;
+    background-image: url(../images/banner.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.banner-opacity{
+    width: 100%;
+    height: 1026px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.banner-content{
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 208px;
+}
+.banner-content-logo{
+    width: 270px;
+    height: 100px;
+    margin-bottom: 50.88px;
+}
+.banner-content-logo__ax{
+    width: 102px;
+    height: 55px;
+    margin-right: 5px;
+}
+.banner-content-logo__it{
+    width: 63px;
+    height: 55px;
+}
+.banner-content-title{
+    width: 670px;
+    height: 168px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+    margin: 0px 0px 55.12px 0px;
+}
+.banner-content-subtitle{
+    width: 270px;
+    height: 42px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 42px 0px 42px 0px;
+}
+.banner-content-download{
+    width: 270px;
+    height: 58px;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.0);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+}
+.banner-content-form{
+    width: 470px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+    float: right;
+}
+.banner-content-form__text{
+    width: 367px;
+    height: 90px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+.colortext{
+    color: #EC7979;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.banner-content-form__name{
+    width: 370px;
+    height: 19px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    border: none;
+    margin: 45px 0px 0px 50px;
+    padding: 0px 0px 0px 0px;
+}
+.banner-content-form__email{
+    width: 370px;
+    height: 19px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    border: none;
+    margin: 33px 0px 0px 50px;
+    padding: 0 0 0 0;
+}
+.banner-content-form__password{
+    width: 370px;
+    height: 19px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    border: none;
+    margin: 33px 0px 0px 50px;
+    padding: 0 0 0 0;
+}
+.banner-content-form__line{
+    width: 370px;
+    height: 3px;
+    border-top: 1px solid #BDBDBD;
+    margin: 16px 0px 0px 50px;
+}
+.banner-content-form__button{
+    width: 470px;
+    height: 60px;
+    background-color: #EC7979;
+    border-radius: 0px 0px 10px 10px;
+    border: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 75px;
+    padding: 0 0 0 0;
+}
+
+
+
