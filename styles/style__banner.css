@@ -21,6 +21,8 @@
     width: 270px;
     height: 100px;
     margin-bottom: 50.88px;
+    display: flex;
+    align-items: center;
 }
 .banner-content-logo__ax{
     width: 102px;
@@ -88,6 +90,7 @@
     display: flex;
     align-items: center;
     text-align: center;
+    justify-content: center;
     text-transform: uppercase;
     margin: 0 auto;
 }
@@ -109,6 +112,9 @@
     margin: 45px 0px 0px 50px;
     padding: 0px 0px 0px 0px;
 }
+.banner-content-form__name:focus{
+    border: none;
+}
 .banner-content-form__email{
     width: 370px;
     height: 19px;
@@ -120,7 +126,7 @@
     color: #BDBDBD;
     border: none;
     margin: 33px 0px 0px 50px;
-    padding: 0 0 0 0;
+    padding: 0px 0px 0px 0px;
 }
 .banner-content-form__password{
     width: 370px;
@@ -133,7 +139,7 @@
     color: #BDBDBD;
     border: none;
     margin: 33px 0px 0px 50px;
-    padding: 0 0 0 0;
+    padding: 0px 0px 0px 0px;
 }
 .banner-content-form__line{
     width: 370px;
@@ -154,8 +160,166 @@
     line-height: 20px;
     color: #FFFFFF;
     margin-top: 75px;
-    padding: 0 0 0 0;
+    padding: 0px 0px 0px 0px;
 }
+@media (max-width: 1024px){
+    .banner-image{
+        max-width: 100%;
+        height: 693.15px;
+    }
+    .banner-opacity{
+        max-width: 100%;
+        height: 693.15px;
+    }
+    .banner-content{
+        max-width: 888.72px;
+        padding: 136.98px 0px 0px 115.28px;
+    }
+    .banner-content-logo{
+        max-width: 183.1px;
+        height: 74.85px;
+        margin-bottom: 37.61px;
+    }
+    .banner-content-logo__ax{
+        max-width: 69.17px;
+        height: 41.17px;
+        margin-right: 3.39px;
+    }
+    .banner-content-logo__it{
+        max-width: 42.72px;
+        height: 41.17px;
+    }
+    .banner-content-title{
+        max-width: 454.36px;
+        height: 126px;
+        font-size: 36px;
+        line-height: 42px;
+        margin: 0px 0px 41.49px 0px;
+    }
+    .banner-content-imgline{
+        max-width: 115.28px;
+    }
+    .banner-content-subtitle{
+        max-width: 183.1px;
+        height: 32px;
+        font-size: 14px;
+        line-height: 16px;
+        margin: 31px 0px 31.32px 0px;
+    }
+    .banner-content-download{
+        max-width: 183.1px;
+        height: 50px;
+    }
+    .banner-content-form{
+        max-width: 398px;
+        height: 450px;
+    }
+    .banner-content-form__text{
+        max-width: 298px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .banner-content-form__name{
+        max-width: 298px;
+    }
+    .banner-content-form__email{
+        max-width: 298px;
+    }
+    .banner-content-form__password{
+        max-width: 298px;
+    }
+    .banner-content-form__line{
+        max-width: 298px;
+    }
+    .banner-content-form__button{
+        max-width: 398px;
+    }
+    .banner{
+        display: none;
+    }
+}
+@media (max-width: 320px){
+    .banner-image{
+        height: 949px;
+    }
+    .banner-opacity{
+        height: 949px;
+    }
+    .banner-content{
+        display: flex;
+        flex-direction: column;
+        max-width: 288px;
+        padding: 84.12px 0px 0px 0px;
+    }
+    .banner-content-logo{
+        display: none;
+    }
+    .banner-content-title{
+        max-width: 288px;
+        height: 168px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 0px 43.88px 0px;
+    }
+    .banner-content-imgline{
+        max-width: 134px;
+        display: block;
+        margin: 0 auto;
+    }
+    .banner-content-subtitle{
+        max-width: 288px;
+        height: 32px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 42px 0px 42px 0px;
+    }
+    .banner-content-download{
+        max-width: 288px;
+        margin: 0px 0px 56px 0px;
+    }
+    .banner-content-form{
+        max-width: 288px;
+        height: 381px;
+        order: 5;
+    }
+    .banner-content-form__text{
+        max-width: 240px;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner-content-form__name{
+        max-width: 240px;
+        margin: 0px 28px 0px 20px;
+    }
+    .banner-content-form__email{
+        max-width: 240px;
+        margin: 33px 28px 0px 20px;
+    }
+    .banner-content-form__password{
+        max-width: 240px;
+        margin: 33px 28px 0px 20px;
+    }
+    .banner-content-form__line{
+        max-width: 240px;
+        margin: 16px 28px 0px 20px;
+    }
+    .banner-content-form__button{
+        max-width: 288px;
+        margin-top: 50px;
+    }
+    .banner{
+        display: none;
+    }
+}
+
 
 
 

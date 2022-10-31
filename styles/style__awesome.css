@@ -4,6 +4,7 @@ main {
 .awesome {
     width: 1170px;
     margin: 0 auto;
+    padding: 0px 15px;
 }
 .awesome-text__title {
     width: 1170px;
@@ -44,6 +45,7 @@ main {
     justify-content: space-between;
 }
 .awesome-content-item{
+    width: 370px;
     display:inline-block;
 }
 .awesome-content-item__icon {
@@ -72,7 +74,92 @@ main {
     font-size: 18px;
     line-height: 21px;
     text-align: center;
-    margin-top: 8px;
+    margin: 8px 0px 0px 0px;
+}
+@media (max-width: 1024px){
+    .awesome{
+        max-width: 992px;
+    }
+    .awesome-text__title {
+        max-width: 992px;
+        height: 120px;
+        font-size: 24px;
+        font-weight: 400px;
+        line-height: 28px;
+    }
+    .awesome-text__subtitle{
+        max-width: 992px;
+        height: 16px;
+        font-size: 14px;
+        font-weight: 400px;
+        line-height: 16px;
+    }
+    .awesome-text__imgline{
+        max-width: 142px;
+    }
+    .awesome-content-item{
+        max-width: 317px;
+    }
+    .awesome-content-item__icon{
+        max-width: 147px;
+        height: 147px;
+        margin-left: 85px;
+    }
+    .awesome-content-item__title{
+        max-width: 317px;
+        height: 82px;
+        font-size: 18px;
+        font-weight: 700px;
+        line-height: 25px;
+    }
+    .awesome-content-item__text{
+        max-width: 317px;
+        height: 80px;
+        font-size: 14px;
+        font-weight: 400px;
+        line-height: 16px;
+    }
+}
+@media (max-width: 320px){
+    .awesome{
+        max-width: 288px;
+    }
+    .awesome-text__title {
+        max-width: 288px;
+        height: 120px;
+    }
+    .awesome-text__subtitle{
+        max-width: 288px;
+        height: 30px;
+        font-size: 13px;
+        line-height: 15px;
+        margin: 25px 0px 50px 0px;
+    }
+    .awesome-text__imgline{
+        max-width: 134px;
+        margin: 0 auto;
+    }
+    .awesome-content{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .awesome-content-item{
+        max-width: 288px;
+    }
+    .awesome-content-item__icon{
+        margin-left: 69px;
+    }
+    .awesome-content-item__title{
+        max-width: 288px;
+        height: 82px;
+        margin: 10px 0px 9px 0px;
+    }
+    .awesome-content-item__text{
+        max-width: 288px;
+        height: 80px;
+        margin-bottom: 10px;
+    }
 }
 
 

@@ -27,3 +27,40 @@ footer{
     padding-bottom: 27px;
     margin: 0 auto;
 }
+@media (max-width: 1024px){
+    .social{
+        max-width: 477px;
+        height: 45px;
+    }
+    .social__icon{
+        max-width: 45px;
+        height: 45px;
+    }
+    .text{
+        width: 992px;
+        height: 16px;
+        font-size: 14px;
+        line-height: 16px;
+        padding-top: 38px;
+        padding-bottom: 30px;
+    }
+}
+@media (max-width: 320px){
+    .social{
+        max-width: 284px;
+        height: 26px;
+    }
+    .social__icon{
+        max-width: 26px;
+        height: 26px;
+    }
+    .text{
+        width: 288px;
+        height: 16px;
+        font-size: 14px;
+        line-height: 16px;
+        padding-top: 42px;
+        padding-bottom: 45px;
+    }
+}
+

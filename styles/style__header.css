@@ -5,7 +5,7 @@ header{
 }
 .logo-header{
     width: 183.1px;
-    height: 75px;
+    height: 74.85px;
     float: left;
     margin-left: 115.28px;
     display: flex;
@@ -17,8 +17,11 @@ header{
     margin-right: 2.81px;
 }
 .logo-header__it{
-    width: 32.17;
+    width: 32.17px;
     height: 30.69px;
+}
+.menu__vector{
+    display: none;
 }
 .menu{
     width: 570px;
@@ -33,10 +36,46 @@ header{
     text-align: center;
     text-transform: capitalize;
     color: white;
-    margin-left: 770px;
+    margin-left: auto;
+    margin-right: 170px;
 }
 .menu__text{
     width: 113.8px;
     height: 75px;
     margin: 0 auto;
+}
+@media (max-width: 1024px){  
+    .menu{
+        width: 566px;
+        margin-right: 20px;
+    }  
+    .menu__text{
+        max-width: 113px;
+    }
+}
+@media (max-width: 320px){
+    header{
+        height: 56px;
+    }
+    .logo-header{
+        max-width: 130px;
+        height: 56px;
+        margin-left: 20px;
+    }
+    .logo-header__ax{
+        width: 38.69px;
+        height: 22.92px;
+        margin-right: 2.1px;
+    }
+    .logo-header__it{
+        width: 24.02px;
+        height: 22.92x;
+    }
+    .menu__vector{
+        display: block;
+        margin: 19px 35px 19px 261px;
+    }
+    .menu{
+        display: none;
+    }
 }

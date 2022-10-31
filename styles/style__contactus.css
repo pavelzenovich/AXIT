@@ -4,6 +4,7 @@ main {
 .contactus{
     width: 1170px;
     margin: 0 auto;
+    padding: 0px 15px;
 }
 .contactus-text__title{
     width: 1170px;
@@ -12,8 +13,11 @@ main {
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
-    line-height: 150px;
+    line-height: 42px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
     padding-top: 50px;
 }
@@ -116,5 +120,93 @@ main {
     font-size: 15px;
     line-height: 20px;
     color: #FFFFFF;
-    margin: 50px 0px 0px 401px
+    margin: 50px auto;
+    display: block;
+}
+
+@media (max-width: 1024px){
+    .contactus{
+        max-width: 992px;
+    }
+    .contactus-text__title{
+        max-width: 992px;
+        height: 120px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .contactus-text__imgline{
+        max-width: 144px;
+    }
+    .contactus-text__subtitle{
+        max-width: 992px;
+        height: 16px;
+        font-size: 14px;
+        line-height: 16px;
+        margin: 32px 0px 72px 0px;
+    }
+    .contactus-form{
+        max-width: 992px;
+    }
+    .contactus-form-data{
+        max-width: 992px;
+    }
+    .contactus-form-data__name{
+        max-width: 486px;
+    }
+    .contactus-form-data__email{
+        max-width: 486px;
+    }
+    .contactus-form-data__password{
+        max-width: 486px;
+    }
+    .contactus-form-data__message{
+        max-width: 486px;
+        left: 506px;
+    }
+    .contactus-form__button{
+        max-width: 318px;
+    }
+}
+@media (max-width: 320px){
+    .contactus{
+        max-width: 288px;
+    }
+    .contactus-text__title{
+        max-width: 288px;
+        padding-top: 0px;
+    }
+    .contactus-text__imgline{
+        max-width: 134px;
+    }
+    .contactus-text__subtitle{
+        max-width: 288px;
+        height: 32px;
+        margin: 24px 0px 64px 0px;
+    }
+    .contactus-form{
+        max-width: 288px;
+    }
+    .contactus-form-data{
+        max-width: 288px;
+        height: 505px;
+    }
+    .contactus-form-data__name{
+        max-width: 288px;
+    }
+    .contactus-form-data__email{
+        max-width: 288px;
+    }
+    .contactus-form-data__password{
+        max-width: 288px;
+        margin-bottom: 50px;
+    }
+    .contactus-form-data__message{
+        max-width: 288px;
+        left: 0px;
+        top: 290px;
+    }
+    .contactus-form__button{
+        max-width: 288px;
+        margin-bottom: 40px;
+    }
 }

@@ -5,6 +5,7 @@
 .pricing{
     width: 1170px;
     margin: 0 auto;
+    padding: 0px 15px;
 }
 .pricing-text__title{
     width: 1170px;
@@ -13,8 +14,11 @@
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
-    line-height: 150px;
+    line-height: 42px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: black;
     padding-top: 50px;
     margin: 0 auto;
@@ -69,9 +73,11 @@
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
-    line-height: 60px;
-    align-items: center;
+    line-height: 33px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-transform: capitalize;
     margin: 0 auto;
     outline: 2px solid #F5F5F5;
@@ -86,9 +92,11 @@
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 100px;
-    align-items: center;
+    line-height: 42px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
     outline: 2px solid #F5F5F5;
     outline-offset: -2px;
@@ -102,9 +110,11 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 50px;
-    align-items: center;
+    line-height: 21px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
     outline: 2px solid #F5F5F5;
     outline-offset: -2px;
@@ -118,9 +128,11 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 50px;
-    align-items: center;
+    line-height: 21px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
     outline: 2px solid #F5F5F5;
     outline-offset: -2px;
@@ -134,9 +146,11 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 50px;
-    align-items: center;
+    line-height: 21px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
     outline: 2px solid #F5F5F5;
     outline-offset: -2px;
@@ -150,9 +164,11 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 50px;
-    align-items: center;
+    line-height: 21px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
     outline: 2px solid #F5F5F5;
     outline-offset: -2px;
@@ -166,9 +182,11 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 50px;
-    align-items: center;
+    line-height: 21px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
     outline: 2px solid #F5F5F5;
     outline-offset: -2px;
@@ -182,9 +200,11 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 50px;
-    align-items: center;
+    line-height: 21px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
     outline: 2px solid #F5F5F5;
     outline-offset: -2px;
@@ -198,11 +218,166 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 50px;
-    align-items: center;
+    line-height: 21px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
     outline: 2px solid #F5F5F5;
     outline-offset: -2px;
+}
+@media (max-width: 1024px){
+    .pricing{
+        max-width: 992px;
+    }
+    .pricing-text__title{
+        max-width: 992px;
+        height: 120px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .pricing-text__imgline{
+        max-width: 143px;
+    }
+    .pricing-text__subtitle{
+        max-width: 992px;
+        height: 16px;
+        font-size: 14px;
+        line-height: 16px;
+        margin: 32px 0px 0px 0px;
+    }
+    .pricing-content-item-one{
+        max-width: 317px;
+        height: 452.26px;
+        margin-top: 49.74px;
+    }
+    .pricing-content-item-two{
+        max-width: 317px;
+        height: 452.26px;
+        margin-top: 32px;
+    }
+    .pricing-content-item-three{
+        max-width: 317px;
+        height: 452.26px;
+        margin-top: 49.74px;
+    }
+    .pricing-content-item__one{
+        max-width: 317px;
+        height: 53.21px;
+    }
+    .pricing-content-item__two{
+        max-width: 317px;
+        height: 88.68px;
+    }
+    .pricing-content-item__three{
+        max-width: 317px;
+        height: 44.34px;
+    }
+    .pricing-content-item__four{
+        max-width: 317px;
+        height: 44.34px;
+    }
+    .pricing-content-item__five{
+        max-width: 317px;
+        height: 44.34px;
+    }
+    .pricing-content-item__six{
+        max-width: 317px;
+        height: 44.34px;
+    }
+    .pricing-content-item__seven{
+        max-width: 317px;
+        height: 44.34px;
+    }
+    .pricing-content-item__eight{
+        max-width: 317px;
+        height: 44.34px;
+    }
+    .pricing-content-item__nine{
+        max-width: 317px;
+        height: 44.34px;
+    }
+}
+@media (max-width: 320px){
+    .pricing{
+        max-width: 288px;
+    }
+    .pricing-text__title{
+        max-width: 288px;
+        height: 120px;
+    }
+    .pricing-text__imgline{
+        max-width: 134px;
+    }
+    .pricing-text__subtitle{
+        max-width: 288px;
+        height: 32px;
+        margin: 24px 0px 0px 0px;
+    }
+    .pricing-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .pricing-content-item-one{
+        max-width: 288px;
+        height: 400px;
+        margin: 24px 0px 0px 0px;
+    }
+    .pricing-content-item-two{
+        max-width: 288px;
+        height: 400px;
+        margin: 27px 0px 0px 0px;
+    }
+    .pricing-content-item-three{
+        max-width: 288px;
+        height: 400px;
+        margin: 27px 0px 26px 0px;
+    }
+    .pricing-content-item__one{
+        max-width: 288px;
+        height: 47.06px;
+        font-size: 18px;
+    }
+    .pricing-content-item__two{
+        max-width: 288px;
+        height: 78.43px;
+        font-size: 24px;
+    }
+    .pricing-content-item__three{
+        max-width: 288px;
+        height: 39.22px;
+        font-size: 14px;
+    }
+    .pricing-content-item__four{
+        max-width: 288px;
+        height: 39.22px;
+        font-size: 14px;
+    }
+    .pricing-content-item__five{
+        max-width: 288px;
+        height: 39.22px;
+        font-size: 14px;
+    }
+    .pricing-content-item__six{
+        max-width: 288px;
+        height: 39.22px;
+        font-size: 14px;
+    }
+    .pricing-content-item__seven{
+        max-width: 288px;
+        height: 39.22px;
+        font-size: 14px;
+    }
+    .pricing-content-item__eight{
+        max-width: 288px;
+        height: 39.22px;
+        font-size: 14px;
+    }
+    .pricing-content-item__nine{
+        max-width: 288px;
+        height: 39.22px;
+        font-size: 14px;
+    }
 }
 
